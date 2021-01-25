@@ -11,15 +11,13 @@
     align-items: center;
 }
 
-
 .logo {
-    background: url('assets/logo.svg') no-repeat;
+    background: url('../logo.svg') no-repeat;
     height: 92px;
     width: 272px;
     margin: 48px auto;
 
 }
-
 
 .input-wrapper {
     position: relative;
@@ -53,7 +51,6 @@
     width: 24px;
     vertical-align: middle;
 }
-
 
 input {
     position: relative;
