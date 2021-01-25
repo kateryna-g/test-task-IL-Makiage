@@ -1,0 +1,100 @@
+* {
+    box-sizing: border-box;
+}
+
+.container {
+    position: relative;
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.logo {
+    background: url('assets/logo.svg') no-repeat;
+    height: 92px;
+    width: 272px;
+    margin: 48px auto;
+
+}
+
+
+.input-wrapper {
+    position: relative;
+
+    display: flex;
+
+    padding: 0 16px;
+
+    height: 44px;
+    width: 100%;
+    max-width: 600px;
+
+    border: 1px solid #dfe1e5;
+
+    border-radius: 24px;
+}
+
+.input-wrapper > span {
+    height: 24px;
+    width: 24px;
+    margin: auto;
+}
+
+.input-wrapper > span > svg {
+    fill: #9aa0a6;
+}
+
+.input-tools {
+    background: url('http://www.gstatic.com/inputtools/images/tia.png') no-repeat center;
+    height: 24px;
+    width: 24px;
+    vertical-align: middle;
+}
+
+
+input {
+    position: relative;
+
+    width: 100%;
+
+    border: none;
+    outline: none;
+}
+
+.input-wrapper:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+    border-color: rgba(223, 225, 229, 0);
+}
+
+.btn-wrapper {
+    display: flex;
+
+    margin-top: 20px;
+}
+
+button {
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial, sans-serif;
+    margin: 11px 4px;
+    padding: 8px 16px;
+    outline: none;
+    cursor: pointer;
+
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .1);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
